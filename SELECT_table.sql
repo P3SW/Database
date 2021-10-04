@@ -1,0 +1,70 @@
+USE ANS_CUSTOM_CI;
+-- USE ANS_CUSTOM_MVP;
+
+-- TABLE TEST ----------------------------------------
+
+-- SELECT * FROM AFSTEMNING;
+-- GO
+
+SELECT * FROM AUDIT_FK_ERRORS;          /* Blank */
+GO
+
+-- SELECT * FROM AUDIT_LOGERROR;
+-- GO
+
+SELECT * FROM AUDIT_LOGINFO;            /* Blank */
+GO
+
+-- SELECT * FROM AUDIT_LOGINFO_TYPES;
+-- GO
+
+SELECT * FROM COLUMN_VALUE;              /* Blank */
+GO
+
+-- SELECT * FROM DEST_TABLE;
+-- GO
+
+-- SELECT * FROM ENGINE_PROPERTIES;
+-- GO
+
+-- SELECT * FROM HEALTH_REPORT;
+-- GO
+
+SELECT * FROM LOGGING;                   /* Blank */
+GO
+
+SELECT * FROM LOGGING_CONTEXT;           /* Blank */
+GO
+
+-- SELECT * FROM MANAGER_TRACKING;
+-- GO
+
+-- SELECT * FROM MIGRATION_FILE;
+-- GO
+
+SELECT * FROM SEQUENCE_TRACKING;         /* Blank */
+GO
+
+-- SELECT * FROM STATEMENT_COLUMNS;
+-- GO
+
+-- SELECT * FROM STATEMENT_JOINS;
+-- GO
+
+-- SELECT * FROM STATEMENT_TABLES;
+-- GO
+
+-- SELECT * FROM SYS_HOUSEKEEPING;
+-- GO
+
+SELECT * FROM SYS_HOUSEKEEPING_UUID;    /* Blank */
+GO
+
+SELECT * FROM TABLE_LOG;                /* Blank */
+GO
+
+SELECT * FROM VOTE_COMBINATION;         /* Blank */
+GO
+
+SELECT * FROM VOTE_RESULT;              /* Blank */
+GO
