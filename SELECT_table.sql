@@ -7,6 +7,7 @@ USE ANS_CUSTOM_CI;
 /* COL: MANAGER             */
 /* COL: START_TIME          */
 /* COL: END_TIME            */
+/* COL: AFSTEMRESULTAT      */
 
 -- SELECT * FROM AFSTEMNING;
 -- GO
@@ -43,7 +44,8 @@ USE ANS_CUSTOM_CI;
 
 /* COL: STARTTIME           */
 /* SAMME SOM                */
-/* ENDTIME                  */
+/* COL: ENDTIME                  */
+/* COL: RUNTIME                  */
 
 -- SELECT * FROM MANAGER_TRACKING;
 -- GO
