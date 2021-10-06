@@ -15,6 +15,8 @@ USE ANS_CUSTOM_CI;
 
 /* COL: CREATED             */
 /* COL: MGRNAME             */
+/* COL: START_TIME          */
+/* COL: END_TIME            */
 
 -- SELECT * FROM AUDIT_LOGERROR;
 -- GO
@@ -44,8 +46,8 @@ USE ANS_CUSTOM_CI;
 
 /* COL: STARTTIME           */
 /* SAMME SOM                */
-/* COL: ENDTIME                  */
-/* COL: RUNTIME                  */
+/* COL: ENDTIME             */
+/* COL: RUNTIME             */
 
 -- SELECT * FROM MANAGER_TRACKING;
 -- GO
