@@ -1,5 +1,6 @@
-USE ANS_CUSTOM_CI;
+-- USE ANS_CUSTOM_CI;
 -- USE ANS_CUSTOM_MVP;
+USE ANS_CUSTOM_LOGGING;
 
 
 -- TABLE TEST ----------------------------------------
@@ -103,13 +104,13 @@ USE ANS_CUSTOM_CI;
 -- SELECT * FROM SEQUENCE_TRACKING;        /* Blank */
 -- GO
 
--- SELECT * FROM LOGGING;                  /* Blank */
+-- SELECT * FROM LOGGING;                  /* ANS_CUSTOM_LOGGING */
 -- GO
 
--- SELECT * FROM LOGGING_CONTEXT;          /* Blank */
+-- SELECT * FROM LOGGING_CONTEXT;          /* ANS_CUSTOM_LOGGING */
 -- GO
 
--- SELECT * FROM SYS_HOUSEKEEPING_UUID;    /* Blank */
+-- SELECT * FROM SYS_HOUSEKEEPING_UUID;    /* ANS_CUSTOM_LOGGING */
 -- GO
 
 -- SELECT * FROM TABLE_LOG;                /* Blank */
