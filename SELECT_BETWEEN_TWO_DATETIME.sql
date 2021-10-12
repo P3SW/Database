@@ -1,0 +1,8 @@
+USE ANS_CUSTOM_MVP;
+
+DECLARE @start_time AS DATETIME = CONVERT(datetime, '2021-05-18 14:36:15.480');
+DECLARE @next_time AS DATETIME = CONVERT(datetime, '2021-05-18 14:36:16.090');
+
+SELECT * FROM HEALTH_REPORT
+WHERE LOG_TIME >= @start_time and LOG_TIME <= @next_time;
+GO
