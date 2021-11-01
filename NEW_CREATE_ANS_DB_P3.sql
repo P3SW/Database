@@ -10,10 +10,6 @@ GO
 /*N'C:\Program Files\Microsoft SQL Server\MSSQL15.SQLEXPRESS01\MSSQL\DATA\ANS_DB_P3.mdf'	 	*/
 /*N'C:\Program Files\Microsoft SQL Server\MSSQL15.SQLEXPRESS01\MSSQL\DATA\ANS_DB_P3_log.ldf' 	*/
 
-/* Original */
-/*N'S:\SQLDB01\Database\ANS_DB_P3.mdf' 		*/
-/*N'S:\SQLLog01\Log\ANS_DB_P3_log.ldf' 		*/
-
 
 /****** Object:  Database [ANS_DB_P3]    Script Date: 29-10-2021 09:36:50 ******/
 CREATE DATABASE [ANS_DB_P3]
