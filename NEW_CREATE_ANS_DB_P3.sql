@@ -6,6 +6,10 @@ GO
 /* N'/var/opt/mssql/data/ANS_DB_P3.mdf' 	 */
 /* N'/var/opt/mssql/data/ANS_DB_P3_log.ldf' */
 
+/* MACCEN :D */
+/*N'/Users/alexandersteffensen/Library/Containers/com.docker.docker/Data/vms/0/data/ANS_DB_P3.mdf' */
+/* N'/Users/alexandersteffensen/Library/Containers/com.docker.docker/Data/vms/0/data/ANS_DB_P3_log.ldf' */
+
 /* Windows */
 /*N'C:\Program Files\Microsoft SQL Server\MSSQL15.SQLEXPRESS01\MSSQL\DATA\ANS_DB_P3.mdf'	 	*/
 /*N'C:\Program Files\Microsoft SQL Server\MSSQL15.SQLEXPRESS01\MSSQL\DATA\ANS_DB_P3_log.ldf' 	*/
@@ -15,9 +19,9 @@ GO
 CREATE DATABASE [ANS_DB_P3]
  CONTAINMENT = NONE
  ON  PRIMARY 
-( NAME = N'ANS_DB_P3', FILENAME = N'/var/opt/mssql/data/ANS_DB_P3.mdf' , SIZE = 204800KB , MAXSIZE = UNLIMITED, FILEGROWTH = 65536KB )
+( NAME = N'ANS_DB_P3', FILENAME = N'/Users/alexandersteffensen/Library/Containers/com.docker.docker/Data/vms/0/data/ANS_DB_P3.mdf' , SIZE = 204800KB , MAXSIZE = UNLIMITED, FILEGROWTH = 65536KB )
  LOG ON 
-( NAME = N'ANS_DB_P3_log', FILENAME = N'/var/opt/mssql/data/ANS_DB_P3_log.ldf' , SIZE = 204800KB , MAXSIZE = 2048GB , FILEGROWTH = 65536KB )
+( NAME = N'ANS_DB_P3_log', FILENAME = N'/Users/alexandersteffensen/Library/Containers/com.docker.docker/Data/vms/0/data/ANS_DB_P3_log.ldf' , SIZE = 204800KB , MAXSIZE = 2048GB , FILEGROWTH = 65536KB )
  WITH CATALOG_COLLATION = DATABASE_DEFAULT
 GO
 ALTER DATABASE [ANS_DB_P3] SET COMPATIBILITY_LEVEL = 140
@@ -581,3 +585,6 @@ USE [master]
 GO
 ALTER DATABASE [ANS_DB_P3] SET  READ_WRITE 
 GO
+
+ ALTER DATABASE ANS_DB_P3 SET ENABLE_BROKER WITH ROLLBACK IMMEDIATE
+ GO

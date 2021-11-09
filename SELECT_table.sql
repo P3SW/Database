@@ -1,4 +1,4 @@
-USE ANS_CUSTOM_CI;
+USE ANS_DB_P3;
 -- USE ANS_CUSTOM_MVP;
 
 
@@ -9,8 +9,8 @@ USE ANS_CUSTOM_CI;
 /* COL: END_TIME            */
 /* COL: AFSTEMRESULTAT      */
 
--- SELECT * FROM AFSTEMNING;
--- GO
+ SELECT * FROM AFSTEMNING;
+ GO
 
 
 /* COL: CREATED             */
@@ -34,14 +34,14 @@ USE ANS_CUSTOM_CI;
 /* COL: TIMESTAMP           */
 /* COL: KEY (END_TIME)      */
 
--- SELECT * FROM ENGINE_PROPERTIES;
--- GO
+SELECT * FROM ENGINE_PROPERTIES;
+GO
 
 
 /* Col: LOG_TIME            */
 
--- SELECT * FROM HEALTH_REPORT;
--- GO
+SELECT * FROM HEALTH_REPORT;
+GO
 
 
 /* COL: STARTTIME           */
@@ -49,8 +49,8 @@ USE ANS_CUSTOM_CI;
 /* COL: ENDTIME             */
 /* COL: RUNTIME             */
 
--- SELECT * FROM MANAGER_TRACKING;
--- GO
+SELECT * FROM MANAGER_TRACKING;
+GO
 
 
 /* COL: ID                  */
@@ -103,11 +103,11 @@ USE ANS_CUSTOM_CI;
 -- SELECT * FROM SEQUENCE_TRACKING;        /* Blank */
 -- GO
 
--- SELECT * FROM LOGGING;                  /* Blank */
--- GO
+ SELECT * FROM LOGGING;                  /* Blank */
+ GO
 
--- SELECT * FROM LOGGING_CONTEXT;          /* Blank */
--- GO
+ SELECT * FROM LOGGING_CONTEXT;          /* Blank */
+ GO
 
 -- SELECT * FROM SYS_HOUSEKEEPING_UUID;    /* Blank */
 -- GO
